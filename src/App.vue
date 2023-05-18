@@ -12,19 +12,36 @@ export default {
 </script>
 
 <template>
-  <app-header></app-header>
+  <div class="container">
 
-  <main>
+    <!-- Header -->
+    <app-header></app-header>
+   
+
+
+    <!-- Main -->
     <app-main></app-main>
-  </main>
+   
 
-  <app-footer></app-footer>
+    <!-- Footer -->
+   <app-footer></app-footer>
+   
+
+  </div>
+  
+  
 </template>
 
-<style lang="scss" scoped>
+ 
+  
+
+
+<style lang="scss">
 *{
   margin: auto;
   padding: auto;
   box-sizing: border-box;
 }
+
+
 </style>
